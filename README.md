@@ -1,2 +1,2 @@
 # tentzo-android
-aplicación Sierra Tentzo
+Aplicación en android de senderismo para la Sierra Tentzo
