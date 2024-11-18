@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564592876828",
+    "project_id": "tentzo-1ee8c",
+    "storage_bucket": "tentzo-1ee8c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564592876828:android:92a809bc44bc35e4da2ed9",
+        "android_client_info": {
+          "package_name": "com.example.app_tentzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564592876828-t4tpjfpgcmv2sgs4j8nupb5bmn3b9dju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_tentzo",
+            "certificate_hash": "39d39c72ff48c1214ee612f7fe7192926854976f"
+          }
+        },
+        {
+          "client_id": "564592876828-75odvb85b3c54jlajl07inh8sbu2rtst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ3mg__sEVltHD1B3PtPY9pnFtGnLlMX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564592876828-75odvb85b3c54jlajl07inh8sbu2rtst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="40dp">
+
+    <!-- Texto de bienvenida -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <!-- Imagen -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo_ocoyucan"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="32dp"
+        android:paddingBottom="50dp"
+        android:paddingTop="100dp" />
+
+    <!-- Botón de Iniciar sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button" />
+
+    <!-- Botón de Registrarse -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regístrate"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:background="@drawable/rounded_button" />
+    <LinearLayout
+        android:id="@+id/googleLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/rounded_button_with_border"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"> <!-- Ajustar el relleno -->
+
+        <ImageView
+            android:id="@+id/googleIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Google Icon"
+            android:src="@drawable/google_image" />
+
+        <TextView
+            android:id="@+id/googleLoginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Iniciar sesión con Google"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
